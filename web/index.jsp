@@ -10,8 +10,9 @@
   <head>
     <title>$Title$</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+
     <link rel="stylesheet" type="text/css" href="css/left-side-menu.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
     <script type="text/javascript"src="js/left-side-menu.js"></script>
@@ -27,7 +28,7 @@
     <text class="font-red">管理员 adimin </text> <text>光临本系统</text>
   </div>
 
-      <div class="Options">数据字典维护</div>
+      <div class="Options" onclick="">数据字典维护</div>
       <div class="Options1">修改密码</div>
       <div class="Options2">数据字典维护</div>
   </div>
@@ -54,23 +55,56 @@
               <li><a href="#">数据字典维护</a></li>
           </ul>
       </div>
-<%--      <div class="Tab_1">--%>
-<%--        <text class="tab-font">用户管理</text>--%>
-<%--      </div>--%>
-<%--      <div class="Tab_1">--%>
-<%--        <text class="tab-font">课程管理</text>--%>
-<%--      </div>--%>
-<%--      <div class="Tab_1">--%>
-<%--        <text class="tab-font">成绩管理</text>--%>
-<%--      </div>--%>
-<%--      <div class="Tab_1">--%>
-<%--        <text class="tab-font">系统管理</text>--%>
-<%--      </div>--%>
+
   </div>
 
 
   <div class="Show_off">
-    <div class=""></div>
+    <form id="courseFrom">
+
+        <div class="headerList">
+            <div class="headerTitle">
+                <div class="marker" ></div>
+                <text class="headerName">课程表-列表</text>
+            </div>
+            <div class="buttonList">
+                <button class="button1">所有</button>
+                <button class="button1">查询</button>
+                <button class="button1">添加</button>
+                <button class="button1">删除</button>
+            </div>
+        </div>
+        <table class="table_one font-center">
+            <tr >
+                <th class="bj" ></th>
+                <th class="bj">课程编号</th>
+                <th class="bj">课程名称</th>
+                <th class="bj">课程学分</th>
+                <th class="bj">课程学时</th>
+                <th class="bj">教师名称</th>
+                <th class="bj">使用标识</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="checkbox1" value="0"/></td>
+                <td>xxds2020</td>
+                <td>线性代数</td>
+                <td>30</td>
+                <td>30</td>
+                <td>王老师</td>
+                <td>使用标识</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="checkbox1" value="0"/></td>
+                <td>lssx2142</td>
+                <td>离散数学</td>
+                <td>5</td>
+                <td>15</td>
+                <td>李老师</td>
+                <td>使用标识</td>
+            </tr>
+        </table>
+    </form>
+
   </div>
 </div>
 </div>

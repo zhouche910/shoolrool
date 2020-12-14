@@ -13,6 +13,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css/img/index" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -51,16 +65,16 @@
     <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.RegionConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\dev\schoolRoll\web\js" />
-      <recent name="E:\dev\schoolRoll\web\css" />
-      <recent name="E:\dev\schoolRoll\web\css\img\index" />
-      <recent name="E:\dev\schoolRoll\web\img" />
-      <recent name="E:\dev\schoolRoll\web\css\img\login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\dev\schoolRoll\web\css\img\index" />
       <recent name="E:\dev\schoolRoll\web\css\img\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\schoolRoll\web\css\img\index" />
+      <recent name="E:\dev\schoolRoll\web\img\index" />
+      <recent name="E:\dev\schoolRoll\web\js" />
+      <recent name="E:\dev\schoolRoll\web\css" />
+      <recent name="E:\dev\schoolRoll\web\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,21 +186,13 @@
       <workItem from="1607858870921" duration="7907000" />
       <workItem from="1607912301205" duration="549000" />
       <workItem from="1607913028670" duration="685000" />
+      <workItem from="1607926259058" duration="2387000" />
+      <workItem from="1607930203996" duration="6757000" />
+      <workItem from="1607944913256" duration="7197000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/index.jsp</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
