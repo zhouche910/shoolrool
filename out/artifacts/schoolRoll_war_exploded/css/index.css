@@ -1,0 +1,142 @@
+body{
+    background-color:  #f3f7f8;
+}
+.header{
+    width: 1024px;
+    height: 101px;
+    background-image: url(img/login/heder1.jpg) ;
+}
+.GridLine{
+    height: 26px;
+    width: 1024px;
+    background-color: #3f91d3;
+}
+.ti {
+    display: inline-block;
+    height:0;
+    width:470px;
+    font-weight: bold;
+    border-bottom:26px solid #ffffff;
+    border-left:0px solid transparent;
+    border-right:50px solid transparent;
+}
+.Options{
+    position: absolute;
+    margin-left: 65px;
+    height: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+.Options1{
+    position: absolute;
+    margin-left: 225px;
+    height: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+.Options2{
+    position: absolute;
+    margin-left: 385px;
+    height: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}.Options3{
+     position: absolute;
+     margin-left: 65px;
+     height: 24px;
+     color: #ffffff;
+     text-align: center;
+     display: inline-block;
+ }
+ .shu{
+     margin-left: 180px;
+ }
+.font-red{
+    color: red;
+}
+.content-1{
+
+    width: 1024px;
+}
+.menu-1{
+
+    width: 15.5%;
+    height: 700px;
+    background-color: #a3c7fe;
+    display: inline-block;
+}
+.Show_off{
+    width: 84%;
+
+    background-color: #196035;
+    display: inline-block;
+}
+.log{
+    height: 114px;
+    width: 160px;
+    background-image: url(img/index/log2.jpg);
+}
+.tab-font{
+    font-size: 16px;
+    text-align: center;
+    width: 95%;
+}
+.Tab_1{
+    width: 100%;
+    height:35px ;
+    text-align: center;
+    color: #000000;
+    line-height: 35px;
+    background-image: url(img/index/men_b.jpg);
+}
+ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.nav {
+    width: 154px;
+}
+.nav h2 {
+    margin:0;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px 20px;
+    height: 40px;
+    width: 159px;
+    text-align: center;
+    line-height: 40px;
+
+    border-bottom:none;
+background-image: url(img/index/men_b.jpg);
+    cursor: pointer;
+}
+.nav ul {
+    width: 159px;
+    height: 0px;
+    border-width:0px;
+    overflow: hidden;
+    transition:all .5s;
+
+}
+.nav ul.active {
+    height: 125px;
+    border-width: 1px;
+}
+.nav li a{
+    color:#333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 0px 20px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.nav li:last-child a {
+    border-bottom:none;
+}

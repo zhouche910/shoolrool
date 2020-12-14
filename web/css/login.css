@@ -1,0 +1,56 @@
+body{
+    background-color: #f3f7f8;
+}
+.main{
+    /* 水平居中*/
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url(img/login/zhuyekuang1.jpg) ;
+    height: 520px;
+    background-color: #ffffff;
+    -moz-background-size:100% 100%; /* 老版本的 Firefox */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+
+}
+.fromEntry{
+
+    margin-top: 327px;
+    margin-left: 150px;
+    height: 133px;
+    width: 620px;
+    background-color: #5a6268;
+
+}
+.Input_style{
+    height: 80px;
+    width: 264px;
+}
+.touXiang{
+
+}
+.user-s{
+    position: absolute;
+    margin-left: 277PX;
+    font-weight: bold;
+    margin-top: 327px;
+}
+.user-p{
+    position: absolute;
+    font-weight: bold;
+    margin-left: 627PX;
+    margin-top: 327px;
+}
+.enter-btn{
+    margin-top: 426px;
+    height: 34px;
+    width: 114px;
+    border-radius: 9px;
+    margin-left: 20px;
+}
