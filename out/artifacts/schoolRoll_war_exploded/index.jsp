@@ -28,7 +28,7 @@
     <text class="font-red">管理员 adimin </text> <text>光临本系统</text>
   </div>
 
-      <div class="Options">数据字典维护</div>
+      <div class="Options" onclick="">数据字典维护</div>
       <div class="Options1">修改密码</div>
       <div class="Options2">数据字典维护</div>
   </div>
