@@ -7,9 +7,9 @@ import java.util.List;
 public interface usersDao {
     public boolean login (String username ,String password);
 
-    public void  deleteuser(String username);
+    public boolean  deleteuser(String username);
 
-    public  void  updateuser(Users users);
+    public  boolean  updateuser(String username ,String password);
 
     public  List<Users> searchAllUsers();
 

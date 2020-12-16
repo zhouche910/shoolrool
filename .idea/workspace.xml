@@ -7,63 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88250674-1321-4b6b-98ed-bb9ffdf18e52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/config/createTable.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/scores/scoresAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/scores/scoresDeleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/scores/scoresSelectAllController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/scores/scoresSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/scores/scoresUpeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsDeleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsSelectAllController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsUpeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/students/studentsloginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionary/tblDictionaryAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionary/tblDictionaryDeleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionary/tblDictionarySelectAllController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionary/tblDictionarySelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionary/tblDictionaryUpeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex/tblDictionaryindexAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex/tblDictionaryindexDeleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex/tblDictionaryindexSelectAllController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex/tblDictionaryindexSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex/tblDictionaryindexUpeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersDeleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectAllController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersUpeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersloginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/courseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/scoresDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/studentsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/tblDictionaryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/tblDictionaryindexDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/usersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/Scores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/TblDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/TblDictionaryindex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/ScoresService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/StudentsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/TblDictionaryindexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/TblDictionaryservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/tool/DBconnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/tool/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liu/Task1/tool/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.1.34.android-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolRoll_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolRoll_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersAddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersAddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersDeleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersDeleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersSelectAllController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersSelectAllController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersloginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/controller/users/usersloginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/dao/usersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/dao/usersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/service/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/tool/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolRoll/com/liu/Task1/tool/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolRoll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolRoll.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersAddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersAddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersDeleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersDeleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectAllController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectAllController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersSelectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersloginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/controller/users/usersloginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/dao/usersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/dao/usersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liu/Task1/tool/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/Task1/tool/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,29 +121,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/liu/Task1/controller/tblDictionaryindex" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.RegionConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\tblDictionaryindex" />
-      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\tblDictionary" />
-      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\students" />
-      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\scores" />
-      <recent name="E:\dev\shoolrool\src\com\liu\Task1\tool" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dev\schoolRoll\web\css\img\index" />
+      <recent name="E:\dev\schoolRoll\web\css\img\login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liu.Task1.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\dev\schoolRoll\web\css\img\index" />
-      <recent name="E:\dev\schoolRoll\web\css\img\login" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\shoolrool\web\WEB-INF\lib" />
+      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\tblDictionaryindex" />
+      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\tblDictionary" />
+      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\students" />
+      <recent name="E:\dev\shoolrool\src\com\liu\Task1\controller\scores" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +299,8 @@
       <workItem from="1607960253348" duration="36000" />
       <workItem from="1607991893844" duration="2089000" />
       <workItem from="1608021291899" duration="4248000" />
-      <workItem from="1608025561510" duration="14085000" />
+      <workItem from="1608025561510" duration="19034000" />
+      <workItem from="1608080882505" duration="4383000" />
     </task>
     <servers />
   </component>
@@ -354,5 +319,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liu/Task1/tool/test.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

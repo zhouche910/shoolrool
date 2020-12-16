@@ -1,10 +1,13 @@
 package com.liu.Task1.controller.users;
 
+import com.liu.Task1.service.UsersService;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 public class usersDeleController extends HttpServlet {
 
@@ -15,14 +18,21 @@ public class usersDeleController extends HttpServlet {
 
     @Override
     public void doPost( HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        UsersService usersService=new UsersService();
+        response.setContentType("text/html");
+        try {
+            String[] deleteList = request.getParameterValues("deleteList[]");
+            if(deleteList !=null){
+                for(String deleteListid:deleteList){
+                    System.out.println(deleteListid);
+                    usersService.deleteuser(deleteListid);
+                }
+            }else{
+                System.out.println("获取数组参数失败!");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-//        if (true) {
-//            // 向request域中放置信息
-//            request.getRequestDispatcher("index.jsp").forward(request, response);
-//            //转发到成功页面
-//        } else {
-//            response.sendRedirect("InstructorLogin.jsp");
-//            //重定向到首页
-//        }
     }
 }

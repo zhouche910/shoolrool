@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class UsersService implements usersDao {
     @Override
@@ -20,6 +21,7 @@ public class UsersService implements usersDao {
                 e.printStackTrace();
             }
             //注意查询语句中的单引号双引号
+            String zhou ="select id,username,pass_Wrod,userType,use_flag from users where username='" + username + " 'and pass_Wrod='" + password + "';";
             ResultSet rs = DBconnect.selectSql("select id,username,pass_Wrod,userType,use_flag from users where username='" + username + " 'and pass_Wrod='" + password + "';");
             while (rs.next()) {
                 if (rs.getString("username").equals(username) && rs.getString("pass_Wrod").equals(password)) {
@@ -34,13 +36,43 @@ public class UsersService implements usersDao {
     }
 
     @Override
-    public void deleteuser(String username) {
+    public boolean deleteuser(String username) {
+        boolean flag = false;
+        try{
+            DBconnect.init();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        String sql = "delete from users where username='" + username+"'";
 
+        int i = DBconnect.addUpdateDelete(sql);
+        System.out.println("1"+" "+i);
+        if (i > 0) {
+            flag = true;
+        }
+        DBconnect.closeConn();
+        return flag;
     }
 
     @Override
-    public void updateuser(Users users) {
+    public boolean updateuser(String username ,String password) {
+        boolean flag = false;
+        try{
+            DBconnect.init();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        String sql = "update users set pass_Wrod ='" +  password
 
+                +"'"+"where username  = '" + username+"'";
+
+        int i = DBconnect.addUpdateDelete(sql);
+        System.out.println("1"+" "+i);
+        if (i > 0) {
+            flag = true;
+        }
+        DBconnect.closeConn();
+        return flag;
     }
 
     @Override
@@ -103,6 +135,26 @@ public class UsersService implements usersDao {
 
     @Override
     public boolean AddUsers(Users users) {
-        return false;
+        UsersService usersService=new UsersService();
+        Random r = new Random(1);
+        int ID=r.nextInt(10000);
+        boolean flag = false;
+        Users users1=usersService.searchUsers(users.getUsername());
+        if(users1.getUsername()==null){
+            try{
+                DBconnect.init();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
+            int i = DBconnect.addUpdateDelete("insert into users(id,username,pass_Wrod,userType,use_flag) " +
+                    "values('" +ID+ "','"+ users.getUsername() + "','" + users.getPassWrod() + "','"+users.getUserType() + "','"+users.getUseFlag()+" ' )");
+            if (i > 0) {
+                flag = true;
+            }
+            DBconnect.closeConn();
+        }
+
+        return flag;
     }
 }

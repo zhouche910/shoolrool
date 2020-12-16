@@ -1,10 +1,14 @@
 package com.liu.Task1.controller.users;
 
+import com.liu.Task1.pojo.Users;
+import com.liu.Task1.service.UsersService;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class usersAddController extends HttpServlet {
 
@@ -15,15 +19,23 @@ public class usersAddController extends HttpServlet {
 
     @Override
     public void doPost( HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-//        if (true) {
-//            // 向request域中放置信息
-//            request.getRequestDispatcher("index.jsp").forward(request, response);
-//            //转发到成功页面
-//        } else {
-//            response.sendRedirect("InstructorLogin.jsp");
-//            //重定向到首页
-//        }
+            String username =request.getParameter("addUsername");
+            String userPassword =request.getParameter("addPassword");
+            String userTypes=request.getParameter("addUserTypes");
+            int userFlag =Integer.parseInt(request.getParameter("addUserFlag"));
+        UsersService usersService=new UsersService();
+        Users users=new Users(1,username,userPassword,userTypes,userFlag);
+        if (usersService.AddUsers(users)) {
+            PrintWriter printWriter = response.getWriter();
+            printWriter.println("addSucceed");
+            printWriter.flush();
+            printWriter.close();
+        } else {
+            PrintWriter printWriter = response.getWriter();
+            printWriter.println("errrr");
+            printWriter.flush();
+            printWriter.close();
+       }
     }
 
 }
